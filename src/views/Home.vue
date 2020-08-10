@@ -1,6 +1,7 @@
 <template>
   <div class="container mt-4">
-    <h1 class="text-center">Food Guru</h1>
+    <h1 class="text-center">
+      <router-link to="/restaurant">FoodGuru</router-link></h1>
     <ul
       class="list-unstyled"
       v-for="(restaurant, index) in restaurants"
@@ -64,26 +65,3 @@ export default {
 };
 </script>
 
-<style>
-.restaurant-name {
-    font-weight: 700;
-    margin-top: 15px;
-}
-
-.restaurant-description {
-    font-size: 0.9rem;
-}
-
-.list-unstyled>li {
-    cursor: pointer;
-}
-
-.banner {
-    height: 250px;
-}
-
-.name,.price {
-    font-weight: 700;
-    font-size: 0.9rem;
-}
-</style>
