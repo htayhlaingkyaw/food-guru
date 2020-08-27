@@ -9,7 +9,7 @@
       <li>
         <img
           :src="require(`@/assets/restaurants/${restaurant.image}`)"
-          class="img-fluid"/>
+           class="img-fluid"/>
           <div class="restaurant-name">
             {{ restaurant.name }}
           </div>
